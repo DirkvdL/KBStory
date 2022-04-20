@@ -10,9 +10,9 @@
 # Read more in: https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Textures/Importing/
 
 # Recommended use:
-*.[tT][gG][aA] filter=lfs diff=lfs merge=lfs -text
-*.[pP][nN][gG] filter=lfs diff=lfs merge=lfs -text
-*.[bB][mM][pP] filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
 
 # Can also be used:
 *.[fF][lL[oO][aA][tT] filter=lfs diff=lfs merge=lfs -text
@@ -35,10 +35,10 @@
 
 # Always recommended to use:
 # The UE4 FBX import pipeline uses FBX 2018
-*.[fF][bB][xX] filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
 
 # Can also be used:
-*.[oO][bB][jJ] filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
 
 # Other supported formats:
 *.[aA][bB][cC] filter=lfs diff=lfs merge=lfs -text
